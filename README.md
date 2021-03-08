@@ -1,16 +1,12 @@
-# twitter_desktop
+## Twitter Desktop :bird:
 
-A new Flutter project.
+### Description: This project clone Twitter using Flutter for development desktop application :tada:
 
-## Getting Started
+### How I can run it?
+- :rocket: clone this project
+- :rocket: run ***flutter pub get***
+- :rocket: run ***flutter run -d linux*** for run on linux (replace linux by window or macos when run on another platform)
 
-This project is a starting point for a Flutter application.
+### Author: e200 :heart:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Secondary Author: lambiengcode :coffee:

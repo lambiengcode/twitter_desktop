@@ -24,6 +24,8 @@ class _ProfileTweetsState extends State<ProfileTweets>
       child: Column(
         children: [
           TabBar(
+            labelColor: Colors.grey,
+            unselectedLabelColor: Colors.grey,
             controller: _tabController,
             tabs: [
               Tab(

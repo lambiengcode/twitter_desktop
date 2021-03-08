@@ -45,7 +45,6 @@ class UserCard extends StatelessWidget {
                   Icon(
                     Icons.room,
                     size: 16,
-                    color: Colors.white,
                   ),
                   SizedBox(width: 5),
                   Text('Ho Chi Minh, Viet Nam')

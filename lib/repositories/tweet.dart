@@ -5,23 +5,23 @@ import 'package:twitter_desktop/models/user.dart';
 class TweetRepository {
   final _users = [
     User(
-      fullname: 'Eleandro Duzentos',
-      name: 'iam_e200',
+      fullname: 'Material',
+      name: 'material',
       image:
-          'https://pbs.twimg.com/profile_images/1276524106662449152/RWkF0y0i_reasonably_small.jpg',
+          'https://images.unsplash.com/photo-1567892320421-1c657571ea4a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YmlraW5pfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       isVerified: true,
     ),
     User(
-      fullname: 'Kelven Galvão 💙',
-      name: 'irvine5k',
+      fullname: 'LitleBig',
+      name: 'litle',
       image:
-          'https://pbs.twimg.com/profile_images/1229396099275853824/GBfIacU3_reasonably_small.jpg',
+          'https://images.unsplash.com/photo-1539697808415-0873e6eb16dd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHNleHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     ),
     User(
-      fullname: 'NoobSays',
-      name: 'NoobScorpio',
+      fullname: 'lambiengcode',
+      name: 'lambiengcode',
       image:
-          'https://pbs.twimg.com/profile_images/1242943445842477057/hVq7km_T_bigger.jpg',
+          'https://avatars.githubusercontent.com/u/60530946?s=460&u=e342f079ed3571122e21b42eedd0ae251a9d91ce&v=4',
     ),
   ];
 
@@ -30,7 +30,7 @@ class TweetRepository {
   init() async {
     final _tweet1 = Tweet(
       id: 1,
-      user: _users.firstWhere((user) => user.name == 'iam_e200'),
+      user: _users.firstWhere((user) => user.name == 'lambiengcode'),
       comments: 3,
       likes: 49,
       retweets: 7,
@@ -48,11 +48,11 @@ This weekend was unforgettable! Thanks to my friends that keeps making Flutter a
 
     _tweets.add(
       Retweet(
-        user: _users.firstWhere((user) => user.name == 'NoobScorpio'),
+        user: _users.firstWhere((user) => user.name == 'litle'),
         comments: 2,
         likes: 3,
         retweets: 0,
-        content: 'Its lookin good bro! 👌🔥🔥',
+        content: 'Its lookin good bro!',
         time: '13 mins',
         tweet: _tweet1,
       ),
@@ -60,12 +60,12 @@ This weekend was unforgettable! Thanks to my friends that keeps making Flutter a
 
     final _tweet2 = Tweet(
       id: 2,
-      user: _users.firstWhere((user) => user.name == 'irvine5k'),
+      user: _users.firstWhere((user) => user.name == 'material'),
       comments: 19,
       likes: 67,
       retweets: 4,
       content:
-          'Não sou uma pessoa de ler livros, mas recentemente comprei um livro chamado "A Philosophy of Software Design" e venho gostado demais, expandiu muito minha mente sobre desenvolvimento de software, o próximo da lista é "The Pragmatic Programmer", alguém tem recomendações?',
+          'Hi, I\'m a Mobile App Developer...Let\'s follow me on github, my github is github.com/lambiengcode',
       time: '7 mins',
     );
 
